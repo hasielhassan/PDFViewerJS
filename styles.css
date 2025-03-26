@@ -1,0 +1,27 @@
+/* Custom fullscreen button styles */
+.pdf-fullscreen-button {
+    /* Reset default button styling */
+    all: unset;
+    /* Positioning */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+    /* Sizing and padding */
+    padding: 8px 12px;
+    font-size: 14px;
+    /* Visual styles */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1;
+    /* Optional shadow and transition */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+.pdf-fullscreen-button:hover {
+    background-color: #0056b3;
+}

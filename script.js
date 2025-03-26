@@ -45,12 +45,7 @@ function createPdfViewer(element) {
 
     // Create the fullscreen toggle button
     const fsButton = document.createElement('button');
-    fsButton.style.position = 'absolute';
-    fsButton.style.bottom = '10px';
-    fsButton.style.right = '10px';
-    fsButton.style.zIndex = '1000';
-    fsButton.style.padding = '8px 12px';
-    fsButton.style.fontSize = '14px';
+    fsButton.className = 'pdf-fullscreen-button';
     fsButton.textContent = 'Fullscreen';
 
     // Append the iframe and button to the container
